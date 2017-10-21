@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
-data = pd.read_csv('C:/Users/user/Desktop/population2.csv')
+data = pd.read_csv('Population for Turkey.csv')
 data.head()
 print(data)
 X = data['Year'].values[:,np.newaxis]
